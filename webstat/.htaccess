@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/e-sigi.tk/webstat"
+AuthUserFile /var/www/vladok/data/etc/16736289.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
